@@ -12,7 +12,6 @@ var pivotIndex = function (nums) {
 };
 
 
-
 // Source : https://leetcode.com/problems/find-pivot-index/description/
 // Author : Fady Allam
 // Date   : 2023-2-16

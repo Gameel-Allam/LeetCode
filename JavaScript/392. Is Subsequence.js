@@ -5,13 +5,11 @@
  */
 var isSubsequence = function (s, t) {
     const length = t.length;
-    let check = 0;
-    for (let index = 0; index < length; index++) {
-        if (s[check] === t[index])
-            check++;
-        continue;
-    }
-    return (check == s.length) ? true : false;
+    let match = 0;
+    for (let index = 0; index < length; index++)
+        if (s[match] === t[index])
+            match++;
+    return (match == s.length) ? true : false;
 };
 
 

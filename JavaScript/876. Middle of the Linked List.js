@@ -10,13 +10,6 @@ var middleNode = (head) => {
 // Author : Fady Allam
 // Date   : 2023-2-21
 /********************************
-/**
- *
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
  *
  * @param {ListNode} head
  * @return {ListNode}

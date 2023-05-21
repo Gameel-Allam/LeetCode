@@ -14,9 +14,9 @@ var isValid = function (s) {
 // Date   : 2023-5-15
 /********************************
 /**
- * @param {ListNode} list1
- * @param {ListNode} list2
- * @return {ListNode}
+ * @param {string} s
+ * @return {boolean}
+ *
  * 
  * Approach:
  * Create an object the contain each parenthesis and it`s pair to help us when cheking if they correct matching.
